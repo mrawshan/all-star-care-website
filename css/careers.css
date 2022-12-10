@@ -1,0 +1,124 @@
+/* HEADER SECTION */
+.section-header .top {
+    color: #F84365;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.section-header .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1E144F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-header .text {
+    text-align: center;
+    color: #6A718B;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* JOBS SECTION */
+.section-jobs {
+    padding: 0;
+    background-color: #121C52;
+}
+
+.section-jobs .col-right {
+    background-image: url('./../assets/images/image-our-careers.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.section-jobs .col-left {
+    padding: 100px;
+}
+
+.section-jobs .top {
+    color: #F84365;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section-jobs .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 20px
+}
+
+.section-jobs .text {
+    color: #FFFFFF;
+}
+
+.section-jobs ul {
+    margin-top: 20px;
+}
+
+.section-jobs ul li {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.section-jobs ul li img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.section-jobs button {
+    margin-top: 20px;
+}
+
+/****** Media Queries ******/
+@media screen and (max-width: 1327px) {
+    .section-jobs .col-left {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1184px) {
+    .section-jobs .col-left .text, li {
+        font-size: 15px;
+    }
+
+    .section-jobs .col-left {
+        padding: 20px;
+    }
+
+    .section-jobs .col-left {
+        height: auto;
+    }
+
+    .section-jobs .button-secondary {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .section-jobs .col-right {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 751px) {
+    .section-jobs .col-left .title, .text {
+        text-align: center;
+    }
+
+    .section-jobs .col-left .button-secondary {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .section-jobs .col-right {
+        height: 330px;
+    }
+}

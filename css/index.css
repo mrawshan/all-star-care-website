@@ -1,0 +1,290 @@
+.swiper {
+	width: 600px;
+	height: 300px;
+}
+
+.section-hero {
+	background-image: url('../assets/images/image-new-homepage-background.png');
+	background-size: cover;
+	/* height: 80vh; */
+}
+
+.section-hero .overlay {
+	display: none;
+}
+
+.section-hero img {
+	width: 100vw;
+	display: block;
+}
+
+.section-hero h1 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 60px;
+	padding-top: 20px;
+	color: #1e144f;
+	margin-bottom: 30px;
+}
+
+.section-hero .text {
+	color: #1e144f;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.section-hero button {
+	padding: 15px 50px;
+}
+
+.section-benefits {
+	background-color: #1e144f;
+	color: #ffffff;
+}
+
+.section-benefits .wrapper-service {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.section-benefits .wrapper-service img {
+	width: 50px;
+	margin-bottom: 20px;
+}
+
+.section-benefits .wrapper-service .title {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.section-benefits .wrapper-service .text {
+	font-weight: 300;
+	color: #ffffff;
+	margin-top: 0;
+}
+
+/* ABOUT OUR SERVICES SECTION */
+.section-about-our-services .wrapper-service {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.section-about-our-services img {
+	/* width: 400px; */
+	width: 100%;
+	/* Rawshan */
+	border-radius: 25px;
+}
+
+.section-about-our-services .top {
+	color: #f84365;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.section-about-our-services .title {
+	font-size: 30px;
+	font-weight: 600;
+	color: #1e144f;
+	margin-bottom: 20px;
+}
+
+.section-about-our-services .text {
+	color: #1e144f;
+}
+
+.section-about-our-services ul {
+	margin-top: 20px;
+}
+
+.section-about-our-services ul li {
+	margin-bottom: 10px;
+	color: #1e144f;
+}
+
+.section-about-our-services ul li img {
+	width: 20px;
+	margin-right: 20px;
+}
+
+.section-about-our-services button {
+	margin-top: 20px;
+}
+
+/* BRANDS SECTION */
+.section-brands {
+	background-color: #5b59661f;
+}
+
+.section-brands .top {
+	text-align: center;
+	color: #f84365;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.section-brands .title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #1e144f;
+	margin-bottom: 20px;
+}
+
+.section-brands ul {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.section-brands ul li {
+	display: inline-block;
+	margin: 0 50px;
+}
+
+.section-brands ul li img {
+	width: 200px;
+}
+
+/* SECTION TESTIMONIALS */
+.section-testimonials .top {
+	text-align: center;
+	color: #f84365;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.section-testimonials .title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #1e144f;
+	margin-bottom: 20px;
+}
+
+.section-testimonials .swiper {
+	height: auto;
+	width: 100%;
+}
+
+.section-testimonials .testimonial {
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	color: #767d95;
+}
+
+.section-testimonials .wrapper-client {
+	text-align: center;
+}
+
+.section-testimonials .wrapper-client img {
+	width: 60px;
+	border-radius: 50%;
+	height: 60px;
+	object-fit: cover;
+	max-width: none;
+	margin-bottom: 10px;
+}
+
+/****** Media Queries ******/
+@media screen and (max-width: 768px) {
+	.section-hero {
+		height: 400px;
+	}
+
+	.section-hero .wrapper-contact {
+		position: relative;
+		top: -65px;
+	}
+
+	.section-hero h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.section-hero .text {
+		font-size: 20px;
+	}
+
+	.section-hero .button-secondary {
+		width: 200px;
+		padding: 7px;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	.section-about-our-services .wrapper-service {
+		margin-top: 40px;
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.section-about-our-services .wrapper-service {
+		text-align: center;
+	}
+
+	.section-about-our-services .wrapper-service ul {
+		text-align: start;
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 671px) {
+	.section-hero {
+		height: 400px;
+	}
+
+	.section-hero .wrapper-contact {
+		top: -40px;
+	}
+
+	.section-hero h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.section-hero .text {
+		font-size: 15px;
+	}
+
+	.section-hero .wrapper-contact button {
+		width: 170px;
+		padding: 4px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.section-hero {
+		overflow: hidden;
+	}
+
+	.section-hero .container {
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.section-hero {
+		position: relative;
+	}
+
+	.section-hero .overlay {
+		display: block;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	.section-hero .wrapper-contact .title, .wrapper-contact .text {
+		color: white;
+	}
+}

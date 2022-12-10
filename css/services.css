@@ -1,0 +1,125 @@
+/* SERVICES HEADER SECTION */
+.section-services-header .top {
+    color: #F84365;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.section-services-header .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1E144F;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-services-header .text {
+    text-align: center;
+    color: #1E144F;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* SERVICES SECTION */
+.service-primary {
+    background-color: #1E144F;
+}
+
+.section-services .wrapper-content .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.service-primary .wrapper-content .title {
+    color: #FFF;
+}
+
+.service-secondary .wrapper-content .title {
+    color: #1E144F;
+}
+
+.service-primary .wrapper-content .content .text {
+    color: #FFFFFF;
+}
+
+.service-secondary .wrapper-content .content .text {
+    color: #1E144F;
+}
+
+.section-services .wrapper-content .content ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.section-services .wrapper-content .content ul {
+    margin-bottom: 20px;
+}
+
+.service-primary .wrapper-content .content ul li {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.service-secondary .wrapper-content .content ul li {
+    color: #6A718B;
+    margin-bottom: 10px;
+}
+
+.img-service {
+    width: 400px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+/****** Media Queries ******/
+@media screen and (max-width: 1399px) {
+    .section-services .col-img {
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .section-services .img-service {
+        width: -webkit-fill-available;
+    }
+
+    .section-services .text, li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-services .img-service {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .section-services .title, .content > .text {
+        text-align: center;
+    }
+
+    .section-services .content ul {
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 502px) {
+    .section-services .img-service {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-services-header .text, .section-services .content > .text {
+        text-align: justify;
+        padding: 0 10px;
+    }
+}
